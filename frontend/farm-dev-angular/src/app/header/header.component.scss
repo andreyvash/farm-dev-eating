@@ -1,0 +1,13 @@
+#container {
+  display: flex;
+  background-color: #5a257e;
+  padding: 30px 30px;
+  color: white;
+
+  #links {
+    flex-grow: 1;
+    display: flex;
+    gap: 20px;
+    justify-content: center
+  }
+}
