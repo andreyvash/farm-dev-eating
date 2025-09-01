@@ -16,7 +16,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.2.0</version>
+        <version>3.5.4</version>
         <relativePath/>
     </parent>
 
@@ -28,6 +28,7 @@
 
     <modules>
         <module>user-service</module>
+        <module>food-analysis</module>
     </modules>
 
 </project> 

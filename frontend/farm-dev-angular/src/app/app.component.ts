@@ -5,6 +5,7 @@ import { HeaderComponent } from "./header/header.component";
 import { MainContentComponent } from "./main-content/main-content.component";
 import { FooterComponent } from "./footer/footer.component";
 import { HomeComponent } from "./home/home.component";
+import { LoginComponent } from "./login/login.component";
 
 interface FoodEntry {
   id: number;
@@ -23,7 +24,7 @@ interface MacroData {
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, HeaderComponent, MainContentComponent, FooterComponent, HomeComponent],
+  imports: [RouterOutlet, HeaderComponent, MainContentComponent, FooterComponent, HomeComponent, LoginComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })

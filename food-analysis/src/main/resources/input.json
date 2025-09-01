@@ -1,0 +1,15 @@
+{
+  "applicantId": "ASDAS!@#",
+  "candidate":
+    {
+      "firstName": "name",
+      "lastName": "lastName",
+      "email": "name@meil.com"
+    },
+  "job": {
+    "clientId": 123213
+
+  },
+  "dateApplied": "date"
+
+}
